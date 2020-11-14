@@ -25,7 +25,7 @@ function App() {
         <div>
           <h3> Skills </h3>{" "}
         </div>
-        <div>
+        <div className="skills__container">
           <Tag
             marginTop="6"
             marginLeft="4"

@@ -46,3 +46,29 @@
 .poppins {
   font-family: "Poppins", sans-serif;
 }
+
+.skills__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .app {
+    padding: 16px;
+  }
+  .app__actor {
+    width: 90vw;
+  }
+  .chakra-fade {
+    font-size: 18px;
+  }
+  .app__actor {
+    padding: 75px 25px;
+    font-size: 24px;
+  }
+  .css-1j529ay {
+    padding: 20px 9px;
+}
+}
