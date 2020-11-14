@@ -15,7 +15,7 @@ import {
 } from "@chakra-ui/react";
 
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode("Dark");
+  const { colorMode, toggleColorMode } = useColorMode("dark");
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -28,7 +28,7 @@ function App() {
       </div>
       <div class="app__actor">
         <Flex>
-          <Avatar src="yassine.jpg" />
+          <Avatar src="./images/yassine.jpg" />
           <Box ml="3">
             <Text fontWeight="bold">
               Yassine TAKEDDINE
@@ -56,7 +56,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png"
+              src="./images/react.webp"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
@@ -72,7 +72,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://www.edlibre.com/wp-content/uploads/nodejs-34c5f8cc37f0756108c490a903d80176.png"
+              src="./images/node.png"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
@@ -89,7 +89,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/377/landscape/typescriptlang.png"
+              src="./images/typescript.png"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
@@ -106,7 +106,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://wildgoosechase.net/wp-content/uploads/2019/02/graphql-logo-on-black.png"
+              src="./images/graphql.png"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
@@ -123,7 +123,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://pbs.twimg.com/profile_images/1012243829477392387/m3cEA33V_400x400.jpg"
+              src="./images/firebase.jpg"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
@@ -139,7 +139,7 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="https://miro.medium.com/max/5236/1*jNGdZPcjAINHhBERw_gwPA.jpeg"
+              src="./images/figma.jpeg"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
