@@ -1,31 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');.app {
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.app {
   padding: 50px;
-  font-size:35px;
-  font-family: 'Lato', sans-serif;
-
-  
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
 }
-.app__actor{
-    display:flex;
-        justify-content:center;
-    align-items:center;
-    padding:35px;
+.app__actor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 55px 35px;
 }
 .skills {
-    display:flex;
-    padding:20px;
-    justify-content:center;
-    align-items:center;
-    flex-direction:column;
+  display: flex;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 22px;
 }
 
 .mode {
- position:absolute;
- right:0;
- top:0;
- padding:10px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+}
+
+.mode__buttom {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
 }
 
 .badge {
-    margin-left:7px;
+  margin-left: 7px;
+}
+
+.css-1j529ay {
+  background: #2a4365 !important;
+  text-align: center;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
 }
