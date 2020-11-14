@@ -40,7 +40,7 @@ function App() {
               ml={-1}
               mr={2}
             />
-            <TagLabel>React</TagLabel>
+            <TagLabel>React </TagLabel>
           </Tag>
           <Tag
             marginTop="6"
@@ -56,7 +56,7 @@ function App() {
               ml={-1}
               mr={2}
             />
-            <TagLabel>Node</TagLabel>
+            <TagLabel>Node JS</TagLabel>
           </Tag>
 
           <Tag
@@ -108,6 +108,38 @@ function App() {
               mr={2}
             />
             <TagLabel>Firebase</TagLabel>
+          </Tag>
+          <Tag
+            marginTop="6"
+            marginLeft="4"
+            size="lg"
+            colorScheme="blue"
+            borderRadius="full"
+          >
+            <Avatar
+              src="./images/gatsby.png"
+              size="xs"
+              name="Segun Adebayo"
+              ml={-1}
+              mr={2}
+            />
+            <TagLabel>Gatsby</TagLabel>
+          </Tag>
+          <Tag
+            marginTop="6"
+            marginLeft="4"
+            size="lg"
+            colorScheme="blue"
+            borderRadius="full"
+          >
+            <Avatar
+              src="./images/sass.png"
+              size="xs"
+              name="Segun Adebayo"
+              ml={-1}
+              mr={2}
+            />
+            <TagLabel>Sass</TagLabel>
           </Tag>
           <Tag
             marginTop="6"

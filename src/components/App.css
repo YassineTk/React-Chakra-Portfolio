@@ -1,9 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .app {
   padding: 50px;
   font-size: 28px;
-  font-family: "Poppins", sans-serif;
 }
 .app__actor {
   display: flex;
