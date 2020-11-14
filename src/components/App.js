@@ -1,48 +1,26 @@
 import React from "react";
 import "./App.css";
 import {
-  Flex,
   Avatar,
   Box,
-  Text,
-  Badge,
   Button,
-  useColorMode,
   Tag,
   TagLabel,
   useDisclosure,
   Fade,
 } from "@chakra-ui/react";
 
+import Actor from "./Actor";
+import Mode from "./Mode";
+
 function App() {
-  const { colorMode, toggleColorMode } = useColorMode("dark");
   const { isOpen, onToggle } = useDisclosure();
 
   return (
     <div class="app">
       {" "}
-      <div class="mode">
-        <Button className="app__mode" onClick={toggleColorMode}>
-          {colorMode === "light" ? "🌙" : "⚡"}
-        </Button>
-      </div>
-      <div class="app__actor">
-        <Flex>
-          <Avatar src="./images/yassine.jpg" />
-          <Box ml="3">
-            <Text fontWeight="bold">
-              Yassine TAKEDDINE
-              <Badge className="badge" ml="1" colorScheme="green">
-                MA
-              </Badge>
-            </Text>
-            <Text fontSize="sm">
-              {" "}
-              Full Stack JavaScript Developer | Astronomie enthusiast
-            </Text>
-          </Box>
-        </Flex>
-      </div>
+      <Mode />
+      <Actor />
       <div className="skills poppins">
         <div>
           <h3> Skills </h3>{" "}
@@ -160,11 +138,11 @@ function App() {
             rounded="md"
             shadow="md"
           >
-            I'm a Moroccan based JavaScript Developer who work on both Client &
+            I'm a Morocco based JavaScript Developer who work on both Client &
             Server Side.
-            <br /> I love watching startups & companies being more interrested
-            in the UX of their apps, and i love making part of that ! <br /> See
-            my work & projects <br />
+            <br /> I love watching startups & companies getting their App's UX
+            to the next level, and i love making part of it ! <br /> See my work
+            & projects <br />
             <Button marginTop="8px">👉</Button>
           </Box>
         </Fade>
