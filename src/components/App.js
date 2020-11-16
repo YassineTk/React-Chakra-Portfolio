@@ -56,7 +56,7 @@ function App() {
               ml={-1}
               mr={2}
             />
-            <TagLabel>Node JS</TagLabel>
+            <TagLabel>Node</TagLabel>
           </Tag>
 
           <Tag
@@ -67,13 +67,13 @@ function App() {
             borderRadius="full"
           >
             <Avatar
-              src="./images/typescript.png"
+              src="./images/javascript.png"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
-            <TagLabel>TypeScript</TagLabel>
+            <TagLabel>JavaScript</TagLabel>
           </Tag>
 
           <Tag
