@@ -51,6 +51,10 @@
   justify-content: center;
 }
 
+.skills__title {
+  font-size: 28px;
+}
+
 @media screen and (max-width: 600px) {
   .app {
     padding: 16px;
@@ -71,5 +75,56 @@
   .css-t02unw,
   span.css-5sd03k {
     margin-right: 1rem;
+  }
+}
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  flex-direction: column;
+  font-weight: 500;
+  padding: 80px;
+}
+
+.portfolio__items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.portfolio__item__1,
+.portfolio__item__2,
+.portfolio__item__3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+}
+
+.portfolio__item__buttons {
+  margin-top: 20px;
+  display: flex;
+}
+.portfolio__item__buttons button {
+  margin: 5px;
+}
+.portfolio__item__title {
+  padding: 8px;
+}
+
+@media screen and (min-width: 900px) {
+  .portfolio__item__1,
+  .portfolio__item__2,
+  .portfolio__item__3 {
+    padding: 50px;
+  }
+  .portfolio {
+    padding: 120px !important;
   }
 }

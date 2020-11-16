@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+
 import {
   Avatar,
   Box,
@@ -12,18 +12,18 @@ import {
 
 import Actor from "./Actor";
 import Mode from "./Mode";
+import { Link } from "react-router-dom";
 
-function App() {
+function Home() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
     <div class="app">
-      {" "}
       <Mode />
       <Actor />
       <div className="skills poppins">
-        <div>
-          <h3> Skills </h3>{" "}
+        <div className="skills__title">
+          <h3> SKILL SET </h3>{" "}
         </div>
         <div className="skills__container">
           <Tag
@@ -158,6 +158,7 @@ function App() {
             <TagLabel>Figma</TagLabel>
           </Tag>
         </div>
+
         <Button className="poppins" marginTop="65" onClick={onToggle}>
           Who Am I ?
         </Button>
@@ -175,7 +176,9 @@ function App() {
             <br /> I love watching startups & companies getting their App's UX
             to the next level, and i would like beign part of it ! <br /> See my
             work & projects <br />
-            <Button marginTop="8px">👉</Button>
+            <Link to="/portfolio">
+              <Button marginTop="8px">👉</Button>{" "}
+            </Link>
           </Box>
         </Fade>
       </div>
@@ -183,4 +186,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
