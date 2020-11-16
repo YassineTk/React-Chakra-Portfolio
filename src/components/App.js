@@ -170,11 +170,11 @@ function App() {
             rounded="md"
             shadow="md"
           >
-            I'm a Morocco based JavaScript Developer who work on both Client &
-            Server Side.
+            I'm a Morocco based JavaScript Developer who works on both Front &
+            Back End Developement.
             <br /> I love watching startups & companies getting their App's UX
-            to the next level, and i love making part of it ! <br /> See my work
-            & projects <br />
+            to the next level, and i love making part of that ! <br /> See my
+            work & projects <br />
             <Button marginTop="8px">👉</Button>
           </Box>
         </Fade>
