@@ -21,6 +21,7 @@ function Home() {
     <div class="app">
       <Mode />
       <Actor />
+
       <div className="skills poppins">
         <div className="skills__title">
           <h3> SKILL SET </h3>{" "}
@@ -174,10 +175,10 @@ function Home() {
             I'm a Morocco based JavaScript Developer who works on both Front &
             Back End.
             <br /> I love watching startups & companies getting their App's UX
-            to the next level, and i would like beign part of it ! <br /> See my
-            work & projects <br />
+            to the next level, and i love making part of it ! <br />
+            Check My Portfolio <br />
             <Link to="/portfolio">
-              <Button marginTop="8px">👉</Button>{" "}
+              <Button marginTop="3">👉</Button>{" "}
             </Link>
           </Box>
         </Fade>
