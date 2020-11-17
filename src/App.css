@@ -58,7 +58,8 @@
   justify-content: center;
 }
 
-.skills__title {
+.skills__title,
+.contact__title {
   font-size: 28px;
 }
 
