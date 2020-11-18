@@ -24,19 +24,6 @@
   padding: 10px;
   display: flex;
 }
-.envelope__icon {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 10px;
-}
-
-.mode__buttom {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  padding: 10px;
-}
 
 .badge {
   margin-left: 7px;
@@ -61,7 +48,6 @@
 .skills__title,
 .contact__title {
   font-size: 21px;
-  line-height: 8px;
 }
 
 @media screen and (max-width: 600px) {
@@ -88,7 +74,8 @@
 }
 
 /* Portfolio */
-.portfolio {
+.portfolio,
+.contact {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -133,7 +120,8 @@
   .portfolio__item__3 {
     padding: 50px;
   }
-  .portfolio {
+  .portfolio,
+  .contact {
     padding: 120px !important;
   }
 }
@@ -152,4 +140,42 @@ button.chakra-button.poppins.css-7vm6ds,
 button.chakra-button.css-u3wv0a {
   font-weight: 500;
   filter: drop-shadow(3px 3px 3px rgb(0, 0, 0));
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact__form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 50px 0px;
+  text-align: center;
+}
+
+.contact__form__control {
+  margin: 15px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid rgb(165, 165, 165);
+  outline: none;
+  background: none;
+  border-radius: 10px;
+}
+
+textarea {
+  margin: 8px 0 !important;
+  padding: 12px 20px !important;
 }

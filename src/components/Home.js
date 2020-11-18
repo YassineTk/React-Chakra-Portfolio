@@ -24,7 +24,7 @@ function Home() {
 
       <div className="skills poppins">
         <div className="skills__title">
-          <h3> Skill Set </h3>{" "}
+          <h3> SKILL SET </h3>{" "}
         </div>
         <div className="skills__container">
           <Tag
@@ -118,13 +118,13 @@ function Home() {
             borderRadius="full"
           >
             <Avatar
-              src="./images/next.png"
+              src="./images/gatsby.png"
               size="xs"
               name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
-            <TagLabel>Next</TagLabel>
+            <TagLabel>Gatsby</TagLabel>
           </Tag>
           <Tag
             marginTop="6"
@@ -157,60 +157,6 @@ function Home() {
               mr={2}
             />
             <TagLabel>Figma</TagLabel>
-          </Tag>
-        </div>
-        <div style={{ marginTop: "50px" }} className="skills__title">
-          <h3> Also worked with </h3>{" "}
-        </div>
-        <div className="skills__container">
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/python.jpg"
-              size="xs"
-              name="Segun Adebayo"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Python</TagLabel>
-          </Tag>
-
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/django.png"
-              size="xs"
-              name="Segun Adebayo"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Django</TagLabel>
-          </Tag>
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/php.jpg"
-              size="xs"
-              name="Segun Adebayo"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Php</TagLabel>
           </Tag>
         </div>
 
