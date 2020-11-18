@@ -60,7 +60,8 @@
 
 .skills__title,
 .contact__title {
-  font-size: 28px;
+  font-size: 21px;
+  line-height: 8px;
 }
 
 @media screen and (max-width: 600px) {
@@ -135,6 +136,13 @@
   .portfolio {
     padding: 120px !important;
   }
+}
+/* ipad pro */
+@media only screen and (min-width: 1024px) and (max-height: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .skills__container {
+    flex-wrap: nowrap !important;
+  }
+  /* ... */
 }
 
 Button.resume {

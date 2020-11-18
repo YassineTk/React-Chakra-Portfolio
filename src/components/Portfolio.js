@@ -19,7 +19,7 @@ function Portfolio() {
               alt="Segun Adebayo"
             />
           </div>
-          <h4 className="portfolio__item__title">AOT Chat</h4>
+          <h4 className="portfolio__item__title">HxH Chat</h4>
           <div className="portfolio__item__buttons">
             <Link target="_blank" href="http://meetthemeteo.netlify.app/">
               <Button marginTop="8px">Live Demo</Button>
