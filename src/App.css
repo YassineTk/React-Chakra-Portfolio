@@ -179,3 +179,9 @@ textarea {
   margin: 8px 0 !important;
   padding: 12px 20px !important;
 }
+
+@media screen and (max-width: 600px) {
+  .skills__container {
+    flex-direction: column;
+  }
+}
