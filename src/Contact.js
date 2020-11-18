@@ -43,7 +43,7 @@ function Contact() {
             <label for="lname">Message</label>
             <textarea id="message" name="message" />
           </div>
-          <Button 
+          <Button
             type="submit"
             style={{ marginTop: "15px", background: "#dadada", color: "black" }}
             onClick={() =>

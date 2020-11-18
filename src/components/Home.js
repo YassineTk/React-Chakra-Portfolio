@@ -37,7 +37,6 @@ function Home() {
             <Avatar
               src="./images/react.webp"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -53,7 +52,6 @@ function Home() {
             <Avatar
               src="./images/node.png"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -70,7 +68,6 @@ function Home() {
             <Avatar
               src="./images/javascript.png"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -87,7 +84,6 @@ function Home() {
             <Avatar
               src="./images/graphql.png"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -104,7 +100,6 @@ function Home() {
             <Avatar
               src="./images/firebase.jpg"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -118,13 +113,12 @@ function Home() {
             borderRadius="full"
           >
             <Avatar
-              src="./images/gatsby.png"
+              src="./images/Next.png"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
-            <TagLabel>Gatsby</TagLabel>
+            <TagLabel>Next</TagLabel>
           </Tag>
           <Tag
             marginTop="6"
@@ -136,7 +130,6 @@ function Home() {
             <Avatar
               src="./images/sass.png"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
@@ -152,7 +145,6 @@ function Home() {
             <Avatar
               src="./images/figma.jpeg"
               size="xs"
-              name="Segun Adebayo"
               ml={-1}
               mr={2}
             />
