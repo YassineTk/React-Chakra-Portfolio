@@ -31,12 +31,18 @@ function Contact() {
       <div class="contact__header skills__title">GET IN TOUCH</div>
       <div className="contact__form">
         <form onSubmit={sendEmail}>
-          <label for="fname">Name</label>
-          <input type="text" id="name" name="name" />
-          <label for="lname">Email</label>
-          <input type="email" id="email" name="email" />
-          <label for="lname">Message</label>
-          <textarea id="message" name="message" />
+          <div className="name__container">
+            <label for="fname">Name</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div className="email__container">
+            <label for="lname">Email</label>
+            <input type="email" id="email" name="email" />
+          </div>
+          <div className="message__container">
+            <label for="lname">Message</label>
+            <textarea id="message" name="message" />
+          </div>
           <Button
             type="submit"
             style={{ marginTop: "15px", background: "#dadada", color: "black" }}
