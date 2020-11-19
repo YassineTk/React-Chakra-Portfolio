@@ -5,30 +5,29 @@ import { Button, useToast } from "@chakra-ui/react";
 
 function Contact() {
   function sendEmail(e) {
+    // update those variables with the values you have in your emailJs account / service
+    // here is a 2min read Guide https://yassinetakedd.medium.com/how-to-use-emailjs-in-your-react-app-4fe84474ed56
+    let serviceId = "gmail";
+    let templateId = "template_c028eig";
+    let userId = "user_nPfosYnU46kFFIUYiNVt9";
+
     e.preventDefault();
-    emailjs
-      .sendForm(
-        "gmail",
-        "template_c028eig",
-        e.target,
-        "user_nPfosYnU46kFFIUYiNVt9"
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm(serviceId, templateId, e.target, userId).then(
+      (result) => {
+        console.log(result.text);
+      },
+      (error) => {
+        console.log(error.text);
+      }
+    );
     e.target.reset();
   }
   const toast = useToast();
   return (
-    <div class="contact">
+    <div className="contact">
       <Mode />
 
-      <div class="contact__header skills__title">GET IN TOUCH</div>
+      <div className="contact__header skills__title">GET IN TOUCH</div>
       <div className="contact__form">
         <form onSubmit={sendEmail}>
           <div className="name__container">

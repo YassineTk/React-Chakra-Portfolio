@@ -1,18 +1,8 @@
 import React from "react";
 import Mode from "./Mode";
-import {
-  Image,
-  Button,
-  Link,
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  PopoverArrow,
-  PopoverCloseButton,
-  PopoverHeader,
-  PopoverBody,
-} from "@chakra-ui/react";
+import { Image, Button, Link } from "@chakra-ui/react";
 import Projects from "../data/projects.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Portfolio() {
   return (
@@ -23,7 +13,7 @@ function Portfolio() {
       <div class="portfolio__items">
         {Projects.map((project) => {
           return (
-            <div id={project.id} className={project.class}>
+            <div key={project.id} className="portfolio__item">
               {" "}
               <div className="portfolio__item__image">
                 <Image
@@ -37,21 +27,19 @@ function Portfolio() {
                 <Link target="_blank" href={project["demo-link"]}>
                   <Button marginTop="8px">Live Demo</Button>
                 </Link>{" "}
-                <Popover>
-                  <PopoverTrigger>
-                    <Button>Description</Button>
-                  </PopoverTrigger>
-                  <PopoverContent>
-                    <PopoverArrow />
-                    <PopoverCloseButton />
-                    <PopoverHeader>{project.name}</PopoverHeader>
-                    <PopoverBody>{project.description}</PopoverBody>
-                    <PopoverBody>
-                      {project.techs} <br />
-                      {project.repo}
-                    </PopoverBody>
-                  </PopoverContent>
-                </Popover>
+                <Link target="_blank" href={project.repo}>
+                  {project.lock ? (
+                    <Button disabled marginTop="8px">
+                      Respository
+                      <FontAwesomeIcon
+                        style={{ marginLeft: "10px" }}
+                        icon="lock"
+                      />
+                    </Button>
+                  ) : (
+                    <Button marginTop="8px">Respository</Button>
+                  )}
+                </Link>{" "}
               </div>
             </div>
           );

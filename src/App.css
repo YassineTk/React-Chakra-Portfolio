@@ -94,9 +94,7 @@
   flex-wrap: wrap;
 }
 
-.portfolio__item__1,
-.portfolio__item__2,
-.portfolio__item__3 {
+.portfolio__item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -116,10 +114,8 @@
 }
 
 @media screen and (min-width: 900px) {
-  .portfolio__item__1,
-  .portfolio__item__2,
-  .portfolio__item__3 {
-    padding: 50px;
+  .portfolio__item {
+    padding: 50px 25px;
   }
   .portfolio,
   .contact {

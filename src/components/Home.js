@@ -19,7 +19,7 @@ function Home() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
-    <div class="app">
+    <div className="app">
       <Mode />
       <Actor />
 
@@ -31,7 +31,7 @@ function Home() {
           {Skills.map((skill) => {
             return (
               <Tag
-                id={skill.id}
+                key={skill.id}
                 marginTop="6"
                 marginLeft="4"
                 size="lg"

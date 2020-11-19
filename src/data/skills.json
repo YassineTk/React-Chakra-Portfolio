@@ -5,37 +5,37 @@
     "icon": "./images/react.webp"
   },
   {
-    "id": 1,
+    "id": 2,
     "label": "Node",
     "icon": "./images/node.png"
   },
   {
-    "id": 1,
+    "id": 3,
     "label": "Javascript",
     "icon": "./images/javascript.png"
   },
   {
-    "id": 1,
+    "id": 4,
     "label": "GraphQL",
     "icon": "./images/graphql.png"
   },
   {
-    "id": 1,
+    "id": 5,
     "label": "firebase",
     "icon": "./images/firebase.jpg"
   },
   {
-    "id": 1,
+    "id": 6,
     "label": "Next",
     "icon": "./images/Next.png"
   },
   {
-    "id": 1,
+    "id": 7,
     "label": "Sass",
     "icon": "./images/sass.png"
   },
   {
-    "id": 1,
+    "id": 8,
     "label": "Figma",
     "icon": "./images/figma.jpeg"
   }

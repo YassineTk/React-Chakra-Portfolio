@@ -4,10 +4,10 @@ import Actor from "../data/actor.json";
 
 function actor() {
   return (
-    <div class="app__actor">
+    <div className="app__actor">
       {Actor.map((actor) => {
         return (
-          <Flex>
+          <Flex key={actor.id}>
             <Avatar src={actor.image} />
             <Box ml="3">
               <Text fontWeight="bold">

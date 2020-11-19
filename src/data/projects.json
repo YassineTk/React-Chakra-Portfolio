@@ -6,7 +6,8 @@
     "image": "./images/chatapp.png",
     "class": "portfolio__item__1",
     "description": "Built a social media app",
-    "techs": "MERGN Stack (MongoDB - Express, React - GraphQL - Node)"
+    "techs": "MERGN Stack (MongoDB - Express, React - GraphQL - Node)",
+    "lock": true
   },
   {
     "id": 2,
@@ -15,26 +16,29 @@
     "image": "./images/react.webp",
     "class": "portfolio__item__2",
     "description": "Built an open source developers portfolio",
-    "techs": "JavaScript - React - Open weather map API"
+    "techs": "JavaScript - React - Open weather map API",
+    "lock": true
   },
 
   {
     "id": 3,
+    "name": "Anis Fitness",
+    "demo-link": "http://anisfitness.herokuapp.com/",
+    "image": "./images/anisfitness.png",
+    "class": "portfolio__item__3",
+    "description": "Built a club website & member management system",
+    "techs": "Python - Django",
+    "lock": true
+  },
+  {
+    "id": 4,
     "name": "Open Source Portfolio",
     "demo-link": "http://google.co",
     "image": "./images/chakra.png",
     "class": "portfolio__item__3",
     "description": "Built an open source developers portfolio",
     "techs": "JavaScript - React - Chakra UI",
-    "repo": "GitHub Repo : http://google.co"
-  },
-  {
-    "id": 4,
-    "name": "Anis Fitness",
-    "demo-link": "http://anisfitness.herokuapp.com/",
-    "image": "./images/anisfitness.png",
-    "class": "portfolio__item__3",
-    "description": "Built a club website & member management system",
-    "techs": "Python - Django"
+    "repo": "GitHub Repo : http://google.co",
+    "lock": false
   }
 ]
