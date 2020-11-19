@@ -12,7 +12,6 @@ function App() {
       <Switch>
         <Route path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-
         <Route path="/" component={Home} />
       </Switch>
     </Router>
