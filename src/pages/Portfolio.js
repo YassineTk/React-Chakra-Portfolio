@@ -5,6 +5,8 @@ import Projects from "../data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Portfolio() {
+  window.scrollTo(0, 0);
+
   return (
     <div className="portfolio">
       <Mode />
