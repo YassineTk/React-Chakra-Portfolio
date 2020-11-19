@@ -38,5 +38,10 @@
     "id": 8,
     "label": "Figma",
     "icon": "./images/figma.jpeg"
+  },
+  {
+    "id": 9,
+    "label": "Tailwind",
+    "icon": "./images/tailwind.png"
   }
 ]

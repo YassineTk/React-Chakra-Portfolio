@@ -1,5 +1,5 @@
 import React from "react";
-import Mode from "./components/Mode";
+import Mode from "../components/Mode";
 import emailjs from "emailjs-com";
 import { Button, useToast, Text } from "@chakra-ui/react";
 

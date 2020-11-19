@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import Portfolio from "./components/Portfolio";
-import Home from "./components/Home";
+import Portfolio from "./pages/Portfolio";
+import Home from "./pages/Home";
 import "./components/FontawesomeIcons";
-import Contact from "./Contact";
+import Contact from "./pages/Contact";
 
 function App() {
   return (

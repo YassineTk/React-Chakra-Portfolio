@@ -1,5 +1,5 @@
 import React from "react";
-import Mode from "./Mode";
+import Mode from "../components/Mode";
 import { Image, Button, Link, Text } from "@chakra-ui/react";
 import Projects from "../data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

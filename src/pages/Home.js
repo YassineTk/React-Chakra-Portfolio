@@ -10,8 +10,8 @@ import {
   Fade,
 } from "@chakra-ui/react";
 
-import Actor from "./Actor";
-import Mode from "./Mode";
+import Actor from "../components/Actor";
+import Mode from "../components/Mode";
 import { Link } from "react-router-dom";
 import Skills from "../data/skills.json";
 
