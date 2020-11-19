@@ -13,6 +13,7 @@ import {
 import Actor from "./Actor";
 import Mode from "./Mode";
 import { Link } from "react-router-dom";
+import Skills from "../data/skills.json";
 
 function Home() {
   const { isOpen, onToggle } = useDisclosure();
@@ -27,129 +28,21 @@ function Home() {
           <h3> SKILL SET </h3>{" "}
         </div>
         <div className="skills__container">
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/react.webp"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>React </TagLabel>
-          </Tag>
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/node.png"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Node</TagLabel>
-          </Tag>
-
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/javascript.png"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>JavaScript</TagLabel>
-          </Tag>
-
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/graphql.png"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>GraphQL</TagLabel>
-          </Tag>
-
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/firebase.jpg"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Firebase</TagLabel>
-          </Tag>
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/Next.png"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Next</TagLabel>
-          </Tag>
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/sass.png"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Sass</TagLabel>
-          </Tag>
-          <Tag
-            marginTop="6"
-            marginLeft="4"
-            size="lg"
-            colorScheme="blue"
-            borderRadius="full"
-          >
-            <Avatar
-              src="./images/figma.jpeg"
-              size="xs"
-              ml={-1}
-              mr={2}
-            />
-            <TagLabel>Figma</TagLabel>
-          </Tag>
+          {Skills.map((skill) => {
+            return (
+              <Tag
+                id={skill.id}
+                marginTop="6"
+                marginLeft="4"
+                size="lg"
+                colorScheme="blue"
+                borderRadius="full"
+              >
+                <Avatar src={skill.icon} size="xs" ml={-1} mr={2} />
+                <TagLabel>{skill.label} </TagLabel>
+              </Tag>
+            );
+          })}
         </div>
 
         <Button className="poppins" marginTop="65" onClick={onToggle}>

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "label": "React",
+    "icon": "./images/react.webp"
+  },
+  {
+    "id": 1,
+    "label": "Node",
+    "icon": "./images/node.png"
+  },
+  {
+    "id": 1,
+    "label": "Javascript",
+    "icon": "./images/javascript.png"
+  },
+  {
+    "id": 1,
+    "label": "GraphQL",
+    "icon": "./images/graphql.png"
+  },
+  {
+    "id": 1,
+    "label": "firebase",
+    "icon": "./images/firebase.jpg"
+  },
+  {
+    "id": 1,
+    "label": "Next",
+    "icon": "./images/Next.png"
+  },
+  {
+    "id": 1,
+    "label": "Sass",
+    "icon": "./images/sass.png"
+  },
+  {
+    "id": 1,
+    "label": "Figma",
+    "icon": "./images/figma.jpeg"
+  }
+]
