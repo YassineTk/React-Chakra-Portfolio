@@ -1,6 +1,6 @@
 import React from "react";
 import Mode from "../components/Mode";
-import { Image, Button, Link, Text } from "@chakra-ui/react";
+import { Image, Button, Link, Text, Avatar } from "@chakra-ui/react";
 import Projects from "../data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -25,6 +25,7 @@ function Portfolio() {
                 />
               </div>
               <h4 className="portfolio__item__title">{project.name}</h4>
+              <h6 className="portfolio__item__subtitle"> {project.tech}</h6>
               <div className="portfolio__item__buttons">
                 <Link target="_blank" href={project["demo-link"]}>
                   <Button marginTop="8px">Live Demo</Button>

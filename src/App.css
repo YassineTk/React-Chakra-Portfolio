@@ -197,3 +197,8 @@ textarea {
 form {
   width: 75vw;
 }
+
+.portfolio__item__subtitle {
+  font-size: 15px !important;
+  font-weight: 400;
+}
