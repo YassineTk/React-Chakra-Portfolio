@@ -3,6 +3,11 @@
 ## Description :
 
 This a portfolio project based on React Js & Chakra UI library !
+<img src="https://jehojeho762532088.netlify.app/images/graphql.png" /> 
+
+## Snippet :
+
+<img src="https://jehojeho762532088.netlify.app/images/graphql.png" /> 
 
 ## Prerequistes :
 
