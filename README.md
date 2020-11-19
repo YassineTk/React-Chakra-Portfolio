@@ -1,4 +1,4 @@
-# React Chakra-UI portfolio
+# React Chakra-UI Portfolio
 
 ## Description :
 
