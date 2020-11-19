@@ -4,9 +4,9 @@
 
 This a portfolio project based on React Js & Chakra UI library !
 
-## Snippet :
+## DEMO :
 
-<img src="https://jehojeho762532088.netlify.app/images/snippet.png" />
+http://jehojeho762532088.netlify.app
 
 ## Prerequistes :
 
