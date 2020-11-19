@@ -33,12 +33,12 @@
   {
     "id": 4,
     "name": "Open Source Portfolio",
-    "demo-link": "http://google.co",
+    "demo-link": "http://meetthemeteo.netlify.app/",
     "image": "./images/chakra.png",
     "class": "portfolio__item__3",
     "description": "Built an open source developers portfolio",
     "techs": "JavaScript - React - Chakra UI",
-    "repo": "GitHub Repo : http://google.co",
+    "repo": "https://github.com/YassineTk/React-Chakra-Portfolio",
     "lock": false
   }
 ]

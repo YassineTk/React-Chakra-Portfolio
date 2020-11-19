@@ -8,7 +8,7 @@ This a portfolio project based on React Js & Chakra UI library !
 
 -Install Node JS via https://nodejs.org/
 
-## `Personalize it`
+## Personalize it :
 
 - Install Node JS in your computer HERE
 - Download the zip folder from Github and unzip it, or clone this repo
