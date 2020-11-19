@@ -6,7 +6,7 @@ This a portfolio project based on React Js & Chakra UI library !
 
 ## DEMO :
 
-http://jehojeho762532088.netlify.app
+https://yassinetakedd.netlify.app/
 
 ## Prerequistes :
 
