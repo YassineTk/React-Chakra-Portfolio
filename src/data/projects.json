@@ -33,7 +33,7 @@
   {
     "id": 4,
     "name": "Open Source Portfolio",
-    "demo-link": "http://meetthemeteo.netlify.app/",
+    "demo-link": "https://yassinetakedd.netlify.app/",
     "image": "./images/chakra.png",
     "class": "portfolio__item__3",
     "description": "Built an open source developers portfolio",
