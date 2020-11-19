@@ -7,7 +7,7 @@ function Mode() {
   const { colorMode, toggleColorMode } = useColorMode("dark");
 
   return (
-    <div className="mode">
+    <div class="mode">
       <Button marginRight="2">
         <Link className="mode__link" to="/contact">
           <FontAwesomeIcon icon="envelope" />{" "}

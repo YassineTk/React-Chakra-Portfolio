@@ -1,16 +1,18 @@
 import React from "react";
 import Mode from "./Mode";
-import { Image, Button, Link } from "@chakra-ui/react";
+import { Image, Button, Link, Text } from "@chakra-ui/react";
 import Projects from "../data/projects.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function Portfolio() {
   return (
-    <div class="portfolio">
+    <div className="portfolio">
       <Mode />
 
-      <div class="portfolio__header skills__title">PROJECTS</div>
-      <div class="portfolio__items">
+      <div className="portfolio__header skills__title">
+        <Text fontWeight="bold">PROJECTS </Text>{" "}
+      </div>
+      <div className="portfolio__items">
         {Projects.map((project) => {
           return (
             <div key={project.id} className="portfolio__item">

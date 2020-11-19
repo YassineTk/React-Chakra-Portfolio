@@ -60,8 +60,9 @@ function Home() {
             I'm a Morocco based JavaScript Developer who works on both Front &
             Back End.
             <br /> I love watching startups & companies getting their App's UX
-            to the next level, and i love making part of it ! <br />
-            Check My Portfolio <br />
+            to the next level, and i love making part of it!
+            <br />
+            Check my Portfolio <br />
             <Link to="/portfolio">
               <Button marginTop="3">👉</Button>{" "}
             </Link>

@@ -193,3 +193,7 @@ textarea {
 .message__container {
   margin: 8px !important;
 }
+
+form {
+  width: 75vw;
+}

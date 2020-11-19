@@ -22,7 +22,7 @@
 
   {
     "id": 3,
-    "name": "Anis Fitness",
+    "name": "AF Management System",
     "demo-link": "http://anisfitness.herokuapp.com/",
     "image": "./images/anisfitness.png",
     "class": "portfolio__item__3",
