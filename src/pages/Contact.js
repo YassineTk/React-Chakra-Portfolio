@@ -34,15 +34,15 @@ function Contact() {
       <div className="contact__form">
         <form onSubmit={sendEmail}>
           <div className="name__container">
-            <label for="fname">Name</label>
+            <label htmlFor="fname">Name</label>
             <input type="text" id="name" name="name" />
           </div>
           <div className="email__container">
-            <label for="lname">Email</label>
+            <label htmlFor="lname">Email</label>
             <input type="email" id="email" name="email" />
           </div>
           <div className="message__container">
-            <label for="lname">Message</label>
+            <label htmlFor="lname">Message</label>
             <textarea id="message" name="message" />
           </div>
 
