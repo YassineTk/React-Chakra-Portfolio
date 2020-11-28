@@ -22,7 +22,7 @@ https://yassinetakedd.netlify.app/
 - In the src/data route Edit => actors.json + projects.json + skills.json and add your personal details and projects
 - Modify developer description in pages/Home.js
 - Create an account in email.Js (Full Guide : https://medium.com/p/4fe84474ed56)
-- Please, make sure you edit userId, TemplateId & serviceId in Contact.js
+- Please, make sure you edit userId, TemplateId & serviceId in Contact.js + Meta tags in public/index.html 
 - RUN npm run build, this command will create a build folder for you or deploy it using your github repository
 
 ## Netlify Deploying Guide :
