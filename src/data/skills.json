@@ -41,7 +41,7 @@
   },
   {
     "id": 9,
-    "label": "Tailwind",
-    "icon": "./images/tailwind.png"
+    "label": "Bootstrap",
+    "icon": "./images/Bootstrap.png"
   }
 ]
