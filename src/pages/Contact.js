@@ -48,7 +48,7 @@ function Contact() {
 
           <Button
             type="submit"
-            style={{ marginTop: "15px", background: "#dadada", color: "black" }}
+            style={{ marginTop: "15px", background: "#dadada", color: "black",paddingTop:"20px",paddingBottom:"20px", paddingRight:"30px", paddingLeft:"30px"}}
             onClick={() =>
               toast({
                 title: "Message sent",
