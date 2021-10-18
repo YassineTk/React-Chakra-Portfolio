@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
-    "name": "HxH Chat",
-    "demo-link": "http://meetthemeteo.netlify.app/",
+    "name": "Tesla Clone",
+    "demo-link": "http://https://teslac.netlify.app/",
     "image": "./images/chatapp.png",
     "class": "portfolio__item__1",
-    "description": "Built a social media app",
-    "tech": "MERGN Stack",
+    "description": "Tesla's landing page clone",
+    "tech": "React Js",
     "lock": true
   },
   {
