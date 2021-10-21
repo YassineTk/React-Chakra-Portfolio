@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Tesla Clone",
-    "demo-link": "http://https://teslac.netlify.app/",
+    "demo-link": "https://teslac.netlify.app/",
     "image": "./images/chatapp.png",
     "class": "portfolio__item__1",
     "description": "Tesla's landing page clone",
