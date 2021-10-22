@@ -16,18 +16,18 @@
     "image": "./images/react.webp",
     "class": "portfolio__item__2",
     "description": "Built a live weather app",
-    "tech": "React + Open Weather Map Api",
+    "tech": "React Js + Open Weather Map Api",
     "lock": true
   },
 
   {
     "id": 3,
-    "name": "AF Management System",
-    "demo-link": "http://anisfitness.herokuapp.com/",
-    "image": "./images/anisfitness.png",
+    "name": "The Ark",
+    "demo-link": "https://theark.ma/",
+    "image": "./images/react.webp",
     "class": "portfolio__item__3",
-    "description": "Built a club website & member management system",
-    "tech": "Python + Django",
+    "description": "A web agency website",
+    "tech": "React Js",
     "lock": true
   },
   {
@@ -37,7 +37,7 @@
     "image": "./images/chakra.png",
     "class": "portfolio__item__3",
     "description": "Built an open source developers portfolio",
-    "tech": "React + Chakra UI",
+    "tech": "React Js + Chakra UI",
     "repo": "https://github.com/YassineTk/React-Chakra-Portfolio",
     "lock": false
   }
