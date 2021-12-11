@@ -19,19 +19,8 @@
     "tech": "React Js + Open Weather Map Api",
     "lock": true
   },
-
   {
     "id": 3,
-    "name": "The Ark",
-    "demo-link": "https://theark.ma/",
-    "image": "./images/react.webp",
-    "class": "portfolio__item__3",
-    "description": "A web agency website",
-    "tech": "React Js",
-    "lock": true
-  },
-  {
-    "id": 4,
     "name": "Open Source Portfolio",
     "demo-link": "https://yassinetakedd.netlify.app/",
     "image": "./images/chakra.png",
